@@ -1,5 +1,5 @@
 # save-ovo
-Web scraper that checks National Interest Exception post every minute.
+Web scraper that checks National Interest Exception post every minute. Based on my [rouge-scraper](https://github.com/valmassoi/rouge-scraper)
 
 ## Install
 `npm i`
@@ -27,5 +27,5 @@ npm i forever -g # run process in the background
 forever start app.js 
 forever logs
 cat /root/.forever/xxx.log # make sure everything looks good, should get a slack notification
-# exit and get ready to buy!
+# exit and get ready to save Ovo!
 ```
